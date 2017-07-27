@@ -4,9 +4,7 @@ import cenacreepermod.client.renderer.RenderCenaCreeper;
 import cenacreepermod.common.entity.EntityCenaCreeper;
 import cenacreepermod.common.proxy.CommonProxy;
 import net.minecraft.client.renderer.entity.Render;
-import net.minecraft.client.renderer.entity.RenderCreeper;
 import net.minecraft.client.renderer.entity.RenderManager;
-import net.minecraft.entity.monster.EntityCreeper;
 import net.minecraftforge.fml.client.registry.IRenderFactory;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
 

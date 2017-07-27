@@ -3,7 +3,6 @@ package cenacreepermod.client.renderer;
 import cenacreepermod.common.entity.EntityCenaCreeper;
 import net.minecraft.client.model.ModelCreeper;
 import net.minecraft.client.renderer.GlStateManager;
-import net.minecraft.client.renderer.entity.RenderCreeper;
 import net.minecraft.client.renderer.entity.layers.LayerRenderer;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.relauncher.Side;
@@ -34,7 +33,7 @@ public class LayerCenaCreeperCharge implements LayerRenderer<EntityCenaCreeper>
             GlStateManager.translate(f * 0.01F, f * 0.01F, 0.0F);
             GlStateManager.matrixMode(5888);
             GlStateManager.enableBlend();
-            float f1 = 0.5F;
+            //float f1 = 0.5F;
             GlStateManager.color(0.5F, 0.5F, 0.5F, 1.0F);
             GlStateManager.disableLighting();
             GlStateManager.blendFunc(GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ONE);

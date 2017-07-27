@@ -5,11 +5,9 @@ import javax.annotation.Nullable;
 import cenacreepermod.common.CCSoundHandler;
 import cenacreepermod.common.entity.ai.EntityAICenaCreeperSwell;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.EntityAIAttackMelee;
 import net.minecraft.entity.ai.EntityAIAvoidEntity;
-import net.minecraft.entity.ai.EntityAICreeperSwell;
 import net.minecraft.entity.ai.EntityAIHurtByTarget;
 import net.minecraft.entity.ai.EntityAILookIdle;
 import net.minecraft.entity.ai.EntityAINearestAttackableTarget;
@@ -70,7 +68,8 @@ public class EntityCenaCreeper extends EntityMob
     }
     
     
-    protected void initEntityAI()
+    @SuppressWarnings({ "unchecked", "rawtypes" })
+	protected void initEntityAI()
     {
         this.tasks.addTask(1, new EntityAISwimming(this));
         this.tasks.addTask(2, new EntityAICenaCreeperSwell(this));

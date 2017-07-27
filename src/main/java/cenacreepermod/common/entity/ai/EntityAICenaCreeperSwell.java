@@ -3,7 +3,6 @@ package cenacreepermod.common.entity.ai;
 import cenacreepermod.common.entity.EntityCenaCreeper;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.ai.EntityAIBase;
-import net.minecraft.entity.monster.EntityCreeper;
 
 public class EntityAICenaCreeperSwell extends EntityAIBase
 {
